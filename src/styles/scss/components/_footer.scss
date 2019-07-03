@@ -1,0 +1,84 @@
+/* --> FOOTER <-- */
+
+//Imports
+
+@import '../colors/colors';
+
+footer.footerStyle {
+    padding: 15px 0;
+    @extend %colorBackGroundGradient;
+    
+    div.wrapAbout{
+
+        figure.wrapImage{
+            margin: 0;
+            padding: 0;
+
+            img{
+                padding: 5px;
+                border: 1px solid #dddd;
+                border-radius: 4px;
+                width: 60%;
+                height: auto;
+            }//img
+
+            img:hover{
+                -webkit-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                transform: scale(1.1);
+            }//img:hover
+
+        }//figure
+
+        p.footer-copyright{
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: $colorBlanco;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        div.footer-social{
+            text-align: center;
+    
+            .social-icons+.social-icons{
+                margin-left: 10px;
+            }
+
+            .social-icons{
+                width: auto;
+                height: auto;
+
+                .fa{
+                    text-align: center;
+                    text-decoration: none;
+                    transition: color 0.2s;
+                    color: $colorBlanco;
+                    @extend %colorBackGroundGradient;
+                    border-radius: 20%;
+                    padding: 5px;
+                    font-size: 4vw;
+                }
+        
+                .fa-facebook:hover{
+                    color: $colorFacebook;
+                    background: $colorBlanco;
+                }
+        
+                .fa-google:hover{
+                    color: $colorGoogle;
+                    background: $colorBlanco;
+                }
+
+                .fa-twitter:hover{
+                    color: $colorTwitter;
+                    background: $colorBlanco;
+                }
+               
+            }
+    
+        }//div.footer-social
+        
+    }//wrapAbout
+}

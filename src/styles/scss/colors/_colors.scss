@@ -1,0 +1,18 @@
+//COLORS
+
+$colorBlanco: #FFFFFF;
+
+$purpleBackGround: #8A2387;
+$orangeBackGround: #F27121;
+$pinkBackGround: #E94057;
+
+$colorFacebook: #3b5998;
+$colorGoogle: #d34836;
+$colorTwitter: #00aced; 
+
+%colorBackGroundGradient {
+    background: $purpleBackGround; 
+    background: -webkit-linear-gradient(to right, $orangeBackGround, $pinkBackGround, $purpleBackGround); 
+    background: linear-gradient(to right, $orangeBackGround, $pinkBackGround, $purpleBackGround);
+}
+

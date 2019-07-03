@@ -1,0 +1,50 @@
+/* --> HEADER <-- */
+
+//Imports
+
+@import '../colors/colors';
+
+%fontStyleTitlesNav {
+    letter-spacing: .65px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+//Styles
+header.headerStyle{
+    nav.navStyle{
+        @extend %colorBackGroundGradient;
+
+        a.titlePage{
+            padding: 8px 0;
+            @extend %fontStyleTitlesNav;
+        }
+
+       div{
+            ul{
+                li{
+                    padding: 8px;
+
+                    a.nav-link{
+                        padding: 0;
+                        @extend %fontStyleTitlesNav;
+                    
+                        i{
+                            margin-left: 5px;
+                            font-size: 1.4rem;
+                        }//i
+                    }
+
+                    a.active{
+                        padding: 0 2.5px 2.5px 2.5px;
+                        border-bottom: $colorBlanco 1px solid;
+                        border-bottom-left-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                    }
+                }//li
+            }
+        }
+
+    }//navStyle
+}//header
+

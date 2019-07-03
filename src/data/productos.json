@@ -1,0 +1,94 @@
+{
+    "data":[
+        {
+            "id": 0,
+            "precio": 15250,
+            "nombre":"Producto 1",
+            "cantidad": 5
+        },
+        {
+            "id": 1,
+            "precio": 10500,
+            "nombre":"Producto 2",
+            "cantidad": 3
+        },
+        {
+            "id": 2,
+            "precio": 1800,
+            "nombre":"Producto 3",
+            "cantidad": 4
+        },
+        {
+            "id": 3,
+            "precio": 11300,
+            "nombre":"Producto 4",
+            "cantidad": 2
+        },
+        {
+            "id": 4,
+            "precio": 7700,
+            "nombre":"Producto 5",
+            "cantidad": 7
+        },
+        {
+            "id": 5,
+            "precio": 23850,
+            "nombre":"Producto 6",
+            "cantidad": 5
+        },
+        {
+            "id": 6,
+            "precio": 16850,
+            "nombre":"Producto 7",
+            "cantidad": 3
+        },
+        {
+            "id": 7,
+            "precio": 33200,
+            "nombre":"Producto 8",
+            "cantidad": 8
+        },
+        {
+            "id": 8,
+            "precio": 9500,
+            "nombre":"Producto 9",
+            "cantidad": 2
+        },
+        {
+            "id": 9,
+            "precio": 13475,
+            "nombre":"Producto 10",
+            "cantidad": 6
+        },
+        {
+            "id": 10,
+            "precio": 16675,
+            "nombre":"Producto 11",
+            "cantidad": 9
+        },
+        {
+            "id": 11,
+            "precio": 18800,
+            "nombre":"Producto 12",
+            "cantidad": 7
+        },
+        {
+            "id": 12,
+            "precio": 6475,
+            "nombre":"Producto 13",
+            "cantidad": 8
+        },
+        {
+            "id": 13,
+            "precio": 1300,
+            "nombre":"Producto 14",
+            "cantidad": 2
+        },
+        {
+            "id": 14,
+            "precio": 12300,
+            "nombre":"Producto 15",
+            "cantidad": 7
+        }
+    ]
+}

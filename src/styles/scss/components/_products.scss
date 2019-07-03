@@ -1,0 +1,157 @@
+/* --> PRODUCTS <-- */
+
+//Imports
+
+@import '../colors/colors';
+
+%fontStyleTitlesTables {
+    letter-spacing: .65px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+div.wrapContentProducts{
+    padding: 0 1.2% 0 1.2%;
+
+    section{
+
+        div.wrapProductos{
+
+            h3{
+                @extend %fontStyleTitlesTables;
+                color: $orangeBackGround;
+                &:hover{
+                    font-size: 1.85rem;
+                }
+            }//h3
+
+            table{
+                border: 2px solid $orangeBackGround;
+
+                thead{
+                    tr{
+                        th{
+                            border-top: 3px solid $orangeBackGround;
+                            border-bottom: 3px solid $orangeBackGround;
+                        }
+                    }
+                }
+
+                tbody{
+                    tr{
+                        &:not(:last-child){
+                            border-bottom: 2px solid $pinkBackGround;
+                        }
+                        
+                        td{                            
+                            div{
+                                label{
+                                    i{
+                                        font-size: 1.3rem;
+                                        color: $orangeBackGround;
+                                    }
+                                }
+                            }//div
+
+                            input.cantidadBuy{
+                                text-align: center;
+                                font-weight: bold;
+
+                                &:invalid{
+                                    background-color: #c72626;
+                                    color: $colorBlanco;
+                                }
+                                
+                                &:valid{
+                                    background-color: $colorBlanco;
+                                    color: black;
+                                }
+                            }//input.cantidadBuy
+                        }//td
+                    }//tr
+                }//tbody
+            }//table
+        }//div.wrapProductos
+
+        div.wrapProductosAgregados{
+
+            h3{
+                color: $pinkBackGround;
+                @extend %fontStyleTitlesTables;
+                &:hover{
+                    font-size: 1.85rem;
+                }
+            }//h3
+
+            table{
+                border: 2px solid $pinkBackGround;
+
+                thead{
+                    tr{
+                        th{
+                            border-top: 3px solid $pinkBackGround;
+                            border-bottom: 3px solid $pinkBackGround;
+                        }
+                    }
+                }
+
+                tbody{
+                    tr{
+                        &:not(:last-child){
+                            border-bottom: 2px solid $orangeBackGround;
+                        }
+
+                        &.displayNone{
+                            display: none;
+                        }
+
+                        td{
+                            button.btnDeleteProducto{
+                                text-transform: uppercase;
+                                font-size: .685rem;
+                                font-weight: bold;
+                                margin-bottom: 2px;
+                                
+                                &:hover{
+                                    font-size: .710rem;
+                                }
+                            }
+                        }//td
+                    }//tr
+                }//tbody
+            }//table
+        }//div.wrapProductosAgregados
+
+        div.wrapButtonAgregar{
+            button.btnAgregar{
+                background-color: $orangeBackGround;
+                font-weight: bold;
+                color: $colorBlanco;
+
+
+            }//button.btnAgregar
+        }//div.wrapButtonAgregar
+
+        div.wrapButtonComprar{
+            button.btnComprar{
+                background-color: $pinkBackGround;
+                font-weight: bold;
+                color: $colorBlanco;
+
+                &:hover{
+                    font-size: 1.35rem;
+                }
+            }//button.btnComprar
+        }//div.wrapButtonComprar
+
+        div.wrapPaginacion{
+            button{
+                font-weight: bold;
+                color: $colorBlanco;
+                background-color: $purpleBackGround;
+            }
+        }//div.wrapPaginacion
+
+
+    }//section
+}

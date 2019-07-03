@@ -1,0 +1,226 @@
+/* --> HEADER <-- */
+footer.footerStyle div.wrapAbout div.footer-social .social-icons .fa, footer.footerStyle, header.headerStyle nav.navStyle {
+  background: #8A2387;
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+}
+
+header.headerStyle nav.navStyle div ul li a.nav-link, header.headerStyle nav.navStyle a.titlePage {
+  letter-spacing: 0.65px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header.headerStyle nav.navStyle a.titlePage {
+  padding: 8px 0;
+}
+header.headerStyle nav.navStyle div ul li {
+  padding: 8px;
+}
+header.headerStyle nav.navStyle div ul li a.nav-link {
+  padding: 0;
+}
+header.headerStyle nav.navStyle div ul li a.nav-link i {
+  margin-left: 5px;
+  font-size: 1.4rem;
+}
+header.headerStyle nav.navStyle div ul li a.active {
+  padding: 0 2.5px 2.5px 2.5px;
+  border-bottom: #FFFFFF 1px solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* --> FOOTER <-- */
+footer.footerStyle div.wrapAbout div.footer-social .social-icons .fa, footer.footerStyle, header.headerStyle nav.navStyle {
+  background: #8A2387;
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+}
+
+footer.footerStyle {
+  padding: 15px 0;
+}
+footer.footerStyle div.wrapAbout figure.wrapImage {
+  margin: 0;
+  padding: 0;
+}
+footer.footerStyle div.wrapAbout figure.wrapImage img {
+  padding: 5px;
+  border: 1px solid #dddd;
+  border-radius: 4px;
+  width: 60%;
+  height: auto;
+}
+footer.footerStyle div.wrapAbout figure.wrapImage img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+footer.footerStyle div.wrapAbout p.footer-copyright {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+footer.footerStyle div.wrapAbout div.footer-social {
+  text-align: center;
+}
+footer.footerStyle div.wrapAbout div.footer-social .social-icons + .social-icons {
+  margin-left: 10px;
+}
+footer.footerStyle div.wrapAbout div.footer-social .social-icons {
+  width: auto;
+  height: auto;
+}
+footer.footerStyle div.wrapAbout div.footer-social .social-icons .fa {
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.2s;
+  color: #FFFFFF;
+  border-radius: 20%;
+  padding: 5px;
+  font-size: 4vw;
+}
+footer.footerStyle div.wrapAbout div.footer-social .social-icons .fa-facebook:hover {
+  color: #3b5998;
+  background: #FFFFFF;
+}
+footer.footerStyle div.wrapAbout div.footer-social .social-icons .fa-google:hover {
+  color: #d34836;
+  background: #FFFFFF;
+}
+footer.footerStyle div.wrapAbout div.footer-social .social-icons .fa-twitter:hover {
+  color: #00aced;
+  background: #FFFFFF;
+}
+
+/* --> PRODUCTS <-- */
+header.headerStyle nav.navStyle, footer.footerStyle, footer.footerStyle div.wrapAbout div.footer-social .social-icons .fa {
+  background: #8A2387;
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+}
+
+div.wrapContentProducts section div.wrapProductosAgregados h3, div.wrapContentProducts section div.wrapProductos h3 {
+  letter-spacing: 0.65px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+div.wrapContentProducts {
+  padding: 0 1.2% 0 1.2%;
+}
+div.wrapContentProducts section div.wrapProductos h3 {
+  color: #F27121;
+}
+div.wrapContentProducts section div.wrapProductos h3:hover {
+  font-size: 1.85rem;
+}
+div.wrapContentProducts section div.wrapProductos table {
+  border: 2px solid #F27121;
+}
+div.wrapContentProducts section div.wrapProductos table thead tr th {
+  border-top: 3px solid #F27121;
+  border-bottom: 3px solid #F27121;
+}
+div.wrapContentProducts section div.wrapProductos table tbody tr:not(:last-child) {
+  border-bottom: 2px solid #E94057;
+}
+div.wrapContentProducts section div.wrapProductos table tbody tr td div label i {
+  font-size: 1.3rem;
+  color: #F27121;
+}
+div.wrapContentProducts section div.wrapProductos table tbody tr td input.cantidadBuy {
+  text-align: center;
+  font-weight: bold;
+}
+div.wrapContentProducts section div.wrapProductos table tbody tr td input.cantidadBuy:invalid {
+  background-color: #c72626;
+  color: #FFFFFF;
+}
+div.wrapContentProducts section div.wrapProductos table tbody tr td input.cantidadBuy:valid {
+  background-color: #FFFFFF;
+  color: black;
+}
+div.wrapContentProducts section div.wrapProductosAgregados h3 {
+  color: #E94057;
+}
+div.wrapContentProducts section div.wrapProductosAgregados h3:hover {
+  font-size: 1.85rem;
+}
+div.wrapContentProducts section div.wrapProductosAgregados table {
+  border: 2px solid #E94057;
+}
+div.wrapContentProducts section div.wrapProductosAgregados table thead tr th {
+  border-top: 3px solid #E94057;
+  border-bottom: 3px solid #E94057;
+}
+div.wrapContentProducts section div.wrapProductosAgregados table tbody tr:not(:last-child) {
+  border-bottom: 2px solid #F27121;
+}
+div.wrapContentProducts section div.wrapProductosAgregados table tbody tr.displayNone {
+  display: none;
+}
+div.wrapContentProducts section div.wrapProductosAgregados table tbody tr td button.btnDeleteProducto {
+  text-transform: uppercase;
+  font-size: 0.685rem;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+div.wrapContentProducts section div.wrapProductosAgregados table tbody tr td button.btnDeleteProducto:hover {
+  font-size: 0.71rem;
+}
+div.wrapContentProducts section div.wrapButtonAgregar button.btnAgregar {
+  background-color: #F27121;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+div.wrapContentProducts section div.wrapButtonComprar button.btnComprar {
+  background-color: #E94057;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+div.wrapContentProducts section div.wrapButtonComprar button.btnComprar:hover {
+  font-size: 1.35rem;
+}
+div.wrapContentProducts section div.wrapPaginacion button {
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #8A2387;
+}
+
+/* --> HOME <-- */
+header.headerStyle nav.navStyle, footer.footerStyle, footer.footerStyle div.wrapAbout div.footer-social .social-icons .fa {
+  background: #8A2387;
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+}
+
+div.wrapContentHome div.wrapLogo img.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50vmin;
+  pointer-events: none;
+}
+div.wrapContentHome h1 {
+  letter-spacing: 0.65px;
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: #8A2387;
+}
+div.wrapContentHome h1:hover {
+  color: #F27121;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=mainStyle.css.map */
